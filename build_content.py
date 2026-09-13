@@ -4,6 +4,7 @@ from html import escape
 ROOT=Path(__file__).parent
 OUT=ROOT/'dist'
 SOURCE_ASSETS=ROOT/'source_assets'
+PUBLISH_NOTES=False
 GITHUB='https://github.com/renchizhhhh'
 SCHOLAR='https://scholar.google.com/citations?hl=en&user=K9MzfEYAAAAJ'
 
@@ -50,3 +51,32 @@ print('Generated',len(list(OUT.rglob('index.html'))),'pages')
 
 from localize import build_chinese
 build_chinese(OUT)
+
+if not PUBLISH_NOTES:
+    for note_dir in (OUT/'notes', OUT/'zh'/'notes'):
+        if note_dir.exists():
+            shutil.rmtree(note_dir)
+
+    nav_links = {
+        '<a href="/notes/">Notes</a>': '',
+        '<a href="/zh/notes/">笔记</a>': '',
+        '<a href="/notes/research-loop/">experiment on scientific agents</a>': 'experiment on scientific agents',
+        '<a href="/zh/notes/research-loop/">关于科研智能体的实验</a>': '关于科研智能体的实验',
+        '<a href="/notes/research-loop/">Read the proposal</a>': '',
+        '<a href="/zh/notes/research-loop/">阅读实验方案</a>': '',
+        '<a href="/zh/notes/research-loop/">阅读方案</a>': '',
+    }
+
+    for html_file in OUT.rglob('index.html'):
+        html = html_file.read_text()
+        for old, new in nav_links.items():
+            html = html.replace(old, new)
+        for heading in ('Writing &amp; notes', '写作与笔记'):
+            start = html.find(f'<section class="section"><h2>{heading}</h2>')
+            if start != -1:
+                end = html.find('</section>', start)
+                if end != -1:
+                    html = html[:start] + html[end + len('</section>'):]
+        html_file.write_text(html)
+
+    print('Notes excluded; published', len(list(OUT.rglob('index.html'))), 'pages')

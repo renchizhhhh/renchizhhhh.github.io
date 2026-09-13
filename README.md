@@ -1,6 +1,6 @@
 # Renchi Zhang — academic website
 
-Bilingual academic homepage for Renchi Zhang, covering research, robotic systems, publications, notes and an interactive Conway's Game of Life easter egg.
+Bilingual academic homepage for Renchi Zhang, covering research, robotic systems, publications and an interactive Conway's Game of Life easter egg.
 
 ## Repository structure
 
@@ -54,6 +54,8 @@ python build_content.py
 Commit and push the changed files. GitHub Actions will deploy the new `dist/` automatically.
 
 Optional replacement PDFs can be placed temporarily in an untracked `source_assets/` directory before rebuilding. Existing committed assets remain unchanged when that directory is absent.
+
+The `PUBLISH_NOTES` switch in `build_content.py` is currently `False`. A rebuild removes the Notes navigation, homepage note list, links to note routes, and the generated English and Chinese note directories. Set it to `True` when the drafts are ready to publish, then rebuild the site.
 
 ## Local preview
 

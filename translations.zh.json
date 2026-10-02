@@ -19,7 +19,6 @@
   "My PhD runs from July 2022 to September 2026, with my defence scheduled for 14 September 2026. My supervisors are Joost de Winter, Dimitra Dodou, Yke Bauke Eisma and Harleigh Seyffert.": "我的博士阶段为 2022 年 7 月至 2026 年 9 月，答辩定于 2026 年 9 月 14 日。导师是 Joost de Winter、Dimitra Dodou、Yke Bauke Eisma 和 Harleigh Seyffert。",
   "I hold an MSc in Computer Science (Artificial Intelligence), cum laude, from Leiden University, and a BEng in Digital Media Technology from Beijing University of Posts and Telecommunications. I also spent time at KU Leuven as a visiting student in surgical robotics.": "我以优等成绩（cum laude）获得莱顿大学计算机科学（人工智能）硕士学位，本科毕业于北京邮电大学数字媒体技术专业。我也曾在鲁汶大学访学，参与手术机器人研究。",
   "Current work": "近期工作",
-  "Alongside my doctoral work, I have been exploring VLA post-training and offline robustness evaluation. I also contribute to evaluation datasets for human–AI hybrid systems through a part-time MARS V fellowship.": "在博士研究之外，我也在探索 VLA 后训练与离线鲁棒性评估。同时，我通过兼职 MARS V fellowship，参与人类与 AI 混合系统的评估数据集建设。",
   "Email": "邮箱",
   "GitHub": "GitHub",
   "LinkedIn": "LinkedIn",
@@ -225,5 +224,19 @@
   "Biomedical Signal Processing and Control, 93, Article 106179": "Biomedical Signal Processing and Control, 93, Article 106179",
   "Educating future engineers about LLMs: A scalable workshop.": "Educating future engineers about LLMs: A scalable workshop.",
   "Zhang, R., de Winter, J. C. F., Dicke, T., Dodou, D., & Eisma, Y. B.": "Zhang, R., de Winter, J. C. F., Dicke, T., Dodou, D., & Eisma, Y. B.",
-  "Manuscript submitted for publication": "论文已投稿"
+  "Manuscript submitted for publication": "论文已投稿",
+  "Since June 2026 I have also been a part-time MARS V fellow with the Cambridge AI Safety Hub, building evaluation datasets and a leaderboard for an LLM judge that routes tasks between humans and models. The project is mentored by the founders of ": "自 2026 年 6 月起，我还以兼职 MARS V fellow 的身份参与剑桥 AI 安全中心（Cambridge AI Safety Hub）的项目，为一个在人类与模型之间分配任务的 LLM 评判器构建评估数据集和排行榜。项目由 ",
+  "Sampura Research": "Sampura Research",
+  ", a non-profit started by two former Google DeepMind researchers.": " 的创始人指导，这是一家由两位前 Google DeepMind 研究员创办的非营利研究机构。",
+  "Datasets for an LLM-judge router": "LLM 评判路由器的评估数据集",
+  "Evaluation datasets and a leaderboard for an LLM judge that routes tasks between humans and models, as a part-time MARS V fellow with the Cambridge AI Safety Hub. Mentored by the founders of ": "以兼职 MARS V fellow 的身份，在剑桥 AI 安全中心（Cambridge AI Safety Hub）为一个在人类与模型之间分配任务的 LLM 评判器构建评估数据集和排行榜。项目由 ",
+  "In progress · Since June 2026": "进行中 · 自 2026 年 6 月起",
+  "Alongside my doctoral work, I have been exploring VLA post-training and offline robustness evaluation.": "在博士研究之外，我也在探索 VLA 后训练与离线鲁棒性评估。",
+  "Since June 2026 I have also been a part-time MARS V fellow with the Cambridge AI Safety Hub. I build evaluation datasets and a leaderboard for an LLM judge that routes tasks between humans and models, with the aim of better training data and scalable oversight. The project is mentored by Rishub Jain and Josh Jacob, two former Google DeepMind researchers who have since founded ": "自 2026 年 6 月起，我还以兼职 MARS V fellow 的身份参与剑桥 AI 安全中心（Cambridge AI Safety Hub）的项目，为一个在人类与模型之间分配任务的 LLM 评判器构建评估数据集和排行榜，目标是获得更好的训练数据并实现可扩展监督。项目由 Rishub Jain 和 Josh Jacob 指导，两位均曾任职于 Google DeepMind，并已创办 ",
+  ", a London-based non-profit working on human–AI complementarity for scalable oversight.": "——一家位于伦敦、致力于通过人类与 AI 互补实现可扩展监督的非营利研究机构。",
+  "Talks": "学术报告",
+  "Where humans and AI-driven robots misalign: Designing interaction across perception, cognition, and response": "人类与 AI 驱动的机器人在哪里错位：跨越感知、认知与响应的交互设计",
+  "YorRobots Seminar Series · Institute for Safe Autonomy, University of York · 17 July 2026": "YorRobots 系列研讨会 · 约克大学安全自主研究所（Institute for Safe Autonomy） · 2026 年 7 月 17 日",
+  "Four thesis studies read through Wickens’ Multiple Resource Theory, from visual search with 1,250 people and MLLMs to a 226-student workshop, ending in design principles for HRI: switch modalities to rebalance load, expose AI uncertainty, and allocate function dynamically.": "以 Wickens 的多资源理论为共同框架，串联博士论文中的四项研究：从 1,250 名参与者与多模态大模型的视觉搜索对比，到面向 226 名学生的工作坊，最终提出人机交互的设计原则：切换模态以重新平衡负荷、暴露 AI 的不确定性、动态分配功能。",
+  "Event page": "活动页面"
 }
